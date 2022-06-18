@@ -87,7 +87,8 @@ header {
 
 .topnav ul li a img {
   height: 1.6rem;
-  margin-right: 0.5rem;
+  margin-right: 0.2rem;
+  vertical-align: middle;
 }
 
 .topnav ul li a::first-line {
