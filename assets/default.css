@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* default style */
+
+/* standard */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Meiryo", "ヒラギノ角ゴ ProN", serif, system-ui;
+  font-size: 1.2rem;
+}
+
+
+/* header style */
+header {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 0.2rem 1rem -0.1rem #333;
+  position: fided;
+}
+
+.topnav {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+
+.logo {
+  display: inline-block;
+  margin: 1rem;
+}
+
+.logo img {
+  height: 3.7rem;
+  vertical-align: middle;
+}
+
+.logo span {
+  font-size: 2.6rem;
+  vertical-align: middle;
+  margin-left: 0.6rem;
+}
+
+.logo span span {
+  margin: 0;
+  color: #0f8bc0;
+}
+
+.topnav ul {
+  display: inline-block;
+  margin: 0 0 0 auto;
+}
+
+.topnav ul li {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 1rem;
+  border-left: 0.15rem solid #ccc;
+}
+
+.topnav ul li:last-of-type {
+  border-right: 0.15rem solid #ccc;
+}
+
+.topnav ul li:hover {
+  background-color: #f0f0f0;
+}
+
+.topnav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  color: #333;
+}
+
+.topnav ul li a img {
+  height: 1.6rem;
+  margin-right: 0.5rem;
+}
+
+.topnav ul li a::first-line {
+  font-size: 1.6rem;
+  font-weight: 650;
+}
+
+/* footer style */
+footer {
+  width: 100%;
+  background-color: #000;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.footer-nav {
+  display: flex;
+}
+
+.account {
+  display: inline-block;
+  text-align: left;
+}
+
+.myname {
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+
+.acc-link li {
+  display: inline-block;
+}
+
+.acc-link ul img {
+  height: 3rem;
+}
+
+.links {
+  display: inline-block;
+  margin: 0 0 0 auto;
+}
+
+.counter-container {
+  display: inline-block;
+  height: 100%;
+  text-align: center;
+}
+
+.counter {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 2.5rem 0;
+}
+
+.counter img{
+  height: 1.5rem;
+}
+
+.copyright {
+  text-align: center;
+}

@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>{{ site.title }}</title>
+        <meta charset="utf-8">
+    
+        <!-- レスポンシブ対応 -->
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+        <!-- 正規URLを指定 -->
+        <link rel="canonical" href="{{ site.url }}">
+    
+        <!-- ファビコンを設定 -->
+        <link rel="icon" type="image/x-icon" href="{{ site.url }}/assets/images/icon.png" sizes="32x32">
+        <link rel="icon" type="image/x-icon" href="{{ site.url }}/assets/images/icon.png" sizes="192x192">
+        <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/assets/images/icon.png" sizes="150x150">
+
+        <!-- タイトルを設定 -->
+        {% if page.pagename %}
+            <title>{{ site.title }}|{{ page.pagename }}</title>
+        {% else %}
+            <title>{{ site.title }}</title>
+        {% endif %}
+
+        <!-- サイトの説明 -->
+        <meta name="discription" content={{ site.discription }}>
+
+        <!-- cssを指定 -->
+        <link rel="stylesheet" href="{{ site.url }}/assets/default.css">
+        <link rel="stylesheet" href="{{ site.url }}/assets/css/{{ page.css }}">
     </head>
     <body>
-        <header></header>
-        <div class="main"></div>
-        <footer></footer>
+        <header>{% include header.html %}</header>
+        <div class="main">{{ content }}</div>
+        <footer>{% include footer.html %}</footer>
     </body>
 </html>
