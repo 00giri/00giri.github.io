@@ -147,6 +147,10 @@ footer {
   margin: 2.5rem 0;
 }
 
+.counter table {
+  margin: 0 auto;
+}
+
 .counter img{
   height: 1.5rem;
 }
