@@ -4,23 +4,14 @@ layout: default
 css: 404.css
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<h1>404 Not Found</h1>
+      <p class="not-found-ja"><strong>お探しのページは見つかりませんでした。</strong></p>
+      <p class="not-found-en"><strong>We couldn't find the page you're looking for.</strong></p>
+      <div class="link">
+        <div class="top-link">
+          <a href="{{site.url}}"><img src="{{site.url}}/assets/images/home.svg" alt="トップページへ"></img>トップページ</a>
+        </div>
+        <div class="article-link">
+          <a href="{{site.url}}/blog/"><img src="{{site.url}}/assets/images/pencil.svg" alt="記事一覧へ"></img>記事一覧</a>
+        </div>
+      </div>

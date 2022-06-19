@@ -3,7 +3,7 @@ title: "00giri's Website"
 description: >- # this means to ignore newlines until "baseurl:"
   00giriのウェブサイト（作成中）です。
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://00giri.github.io/" # the base hostname & protocol for your site
+url: "https://00giri.github.io" # the base hostname & protocol for your site
 domein: 00giri.github.io
 
 plugins:
