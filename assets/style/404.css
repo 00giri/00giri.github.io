@@ -3,6 +3,7 @@
 /* style of 404 page */
 .main {
   text-align: center;
+  margin: calc((100vh - 51.2rem)/2) 0;
 }
 
 h1 {
