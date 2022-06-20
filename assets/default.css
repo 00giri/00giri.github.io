@@ -138,9 +138,8 @@ footer {
 
 .link-box {
   display: flex;
-  vertical-align: middle;
   text-align: center;
-  margin: 2.7rem 10rem 2.7rem 0;
+  margin: 2.7rem 0rem 2.7rem 0;
 }
 
 .link-box ul li a,
