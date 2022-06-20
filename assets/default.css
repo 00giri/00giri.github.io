@@ -139,50 +139,26 @@ footer {
 .link-box {
   display: flex;
   vertical-align: middle;
-}
-
-.other-links {
-  display: inline-block;
   text-align: center;
   margin: 2.7rem 10rem 2.7rem 0;
 }
 
-.other-links ul li a,
-.other-links ul li a:visited {
+.link-box ul li a,
+.link-box ul li a:visited {
   color: #fff;
   text-decoration: none;
 }
 
-.other-links ul li a img {
+.link-box ul li a img {
   height: 1.6rem;
   margin-left: 0.2rem;
   vertical-align: middle;
 }
 
-.other-links ul li a::after {
+.link-box ul li a::after {
   content: "\A※要Scratchアカウント";
   white-space: pre;
   font-size: 1rem;
-}
-
-.counter-container {
-  display: inline-block;
-  height: 100%;
-  text-align: center;
-}
-
-.counter {
-  display: inline-block;
-  box-sizing: border-box;
-  margin: 2.5rem 0;
-}
-
-.counter table {
-  margin: 0 auto;
-}
-
-.counter img{
-  height: 1.5rem;
 }
 
 .copyright {
