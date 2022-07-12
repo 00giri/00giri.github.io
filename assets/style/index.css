@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/* style of home page */
+.main {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.counter {
+  width: 100%;
+  background-color: #eee;
+  padding: 0.5rem 0;
+  margin: 4rem 0;
+  font-size: 2rem;
+}
+
+.counter table {
+  vertical-align: middle;
+  height: 2rem;
+}
+
+.content {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2rem;
+  margin: 4rem 0;
+  border: 0.5rem solid #bf783a;
+  border-radius: 2rem;
+  text-align: left;
+  font-size: 2rem;
+}
+
+.content h1 {
+  border-left: 0.6rem solid #089;
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+}
+
+.content h2 {
+  border-bottom: 0.2rem solid #089;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.my-icon {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.icon {
+  height: 25rem;
+}
+
+.my-acc {
+  display: inline-block;
+}
+
+.my-acc table {
+  margin-top: 1rem;
+}
+
+.my-acc a,
+.my-acc a:visited {
+  color: #0059b2;
+  text-decoration: none;
+}
+
+.intro ul {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
