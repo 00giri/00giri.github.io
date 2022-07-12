@@ -17,7 +17,14 @@
 
 .counter table {
   vertical-align: middle;
-  height: 2rem;
+  height: 3.5rem;
+}
+
+.counter img {
+  display: inline-block;
+  height: 1.8rem;
+  vertical-align: middle;
+  margin: 0 0.5rem;
 }
 
 .content {
